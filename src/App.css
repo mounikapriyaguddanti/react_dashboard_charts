@@ -1,0 +1,213 @@
+.App {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  background-color: lavender;
+}
+
+.dataCard {
+  background-color: #efefef;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+}
+
+
+
+.revenueCard {
+  width: 77%;
+  height: 20rem;
+  margin-top:15px;
+  margin-left:275px;
+  margin-right:20px;
+}
+/* Define a transition for smooth hover effects */
+.revenueCard {
+  transition: transform 0.3s ease;
+}
+
+/* Scale the card slightly on hover */
+.revenueCard:hover {
+  transform: scale(1.05);
+}
+
+/* Add a box shadow on hover */
+.revenueCard:hover {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 32px;
+}
+
+/* Rotate the card slightly on hover */
+.revenueCard:hover {
+  transform: rotate(3deg);
+}
+
+.customerCard {
+  width: 42%;
+  height: 20rem;
+  margin-left:270px;
+}
+
+.categoryCard {
+  width: 31%;
+  height: 20rem;
+  margin-right:20px;
+}
+/* Define a transition for smooth hover effects */
+.dataCard {
+  transition: transform 0.3s ease;
+}
+
+/* Scale the card slightly on hover */
+.dataCard:hover {
+  transform: scale(1.03);
+}
+
+/* Define a transition for smooth hover effects on bars */
+.customerCard .sidebar__item:hover .sidebar__link {
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+/* Define animation for bar hover */
+.customerCard .sidebar__item:hover .sidebar__icon {
+  animation: rotateIcon 0.5s ease;
+}
+
+/* Keyframes for rotating the icon */
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* App.css */
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  width:81%;
+  margin-left:245px;
+}
+
+/* Logo */
+.logo img {
+  width: 50px; /* Adjust the width as needed */
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color:blwack;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+/* Search icon */
+.search-bar button i {
+  font-size: 16px;
+}
+/* App.css */
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space evenly between children */
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px; /* Add margin to separate image and text */
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+}
+
+.logout p {
+  margin: 0; /* Remove default margin */
+  margin-right: 5px; /* Add margin to separate text and icon */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width:700px;
+}
+
+.search-bar input {
+  width: 300px; 
+  margin-right: 10px; /* Add margin to separate input and button */
+}
+.thank-you-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}

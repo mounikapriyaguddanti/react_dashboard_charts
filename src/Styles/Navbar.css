@@ -1,0 +1,294 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color:orangered;
+  padding-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Initial shadow */
+  transition: box-shadow 0.3s ease; /* Transition for shadow */
+
+  /* Animation */
+  animation: shadowPulse 3s infinite alternate;
+}
+
+/* Keyframes for the shadow pulse animation */
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Rest of the sidebar styles */
+.sidebar__heading {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 40px; /* Increase font size */
+  text-decoration: underline; /* Add underline */
+  font-weight:900px;
+}
+
+
+.sidebar__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 25px; 
+  gap:20px;
+ 
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.sidebar__icon {
+  margin-right: 15px;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 30px; 
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.sidebar__link:hover {
+  color: #f8f8f8;
+  text-decoration: underline; 
+}
+Define a transition for smooth hover effects on bars */
+.customerCard .sidebar__item:hover .sidebar__link {
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+/* Define animation for bar hover */
+.customerCard .sidebar__item:hover .sidebar__icon {
+  animation: rotateIcon 0.5s ease;
+}
+
+/* Keyframes for rotating the icon */
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  padding-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Initial shadow */
+  transition: box-shadow 0.3s ease; /* Transition for shadow */
+
+  /* Animation */
+  animation: shadowPulse 3s infinite alternate;
+}
+
+/* Keyframes for the shadow pulse animation */
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Rest of the sidebar styles */
+.sidebar__heading {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  font-size: 50px; /* Increase font size */
+  text-decoration: underline; /* Add underline */
+  font-weight: 900;
+}
+
+.sidebar__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 25px;
+  gap: 20px;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebar__icon {
+  margin-right: 15px;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.sidebar__link:hover {
+  color: #f8f8f8;
+  text-decoration: underline;
+}
+
+/* Define transition for smooth hover effects on bars */
+.sidebar__item:hover .sidebar__link {
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+/* Define animation for bar hover */
+.sidebar__item:hover .sidebar__icon {
+  animation: rotateIcon 0.5s ease;
+}
+
+/* Keyframes for rotating the icon */
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: px;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.logo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Make the image circular */
+  margin-top: 0px;
+  margin-bottom: 10px; /* Add space between image and name */
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin: 0; /* Remove default margin */
+  color: #fff; /* Optionally, set text color */
+}
+
+
+
+.logo img {
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 500px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+}
+
+.logout p {
+  margin: 0;
+  margin-right: 5px;
+  font-size: 1.5rem;
+  font-weight:900;
+}
+
+.logout i {
+  font-size: 1.5rem;
+  font-weight:900;
+}
