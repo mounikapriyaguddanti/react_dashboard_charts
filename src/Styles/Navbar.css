@@ -69,7 +69,7 @@
   color: #f8f8f8;
   text-decoration: underline; 
 }
-Define a transition for smooth hover effects on bars */
+
 .customerCard .sidebar__item:hover .sidebar__link {
   background-color: #eee;
   transition: background-color 0.3s ease;
